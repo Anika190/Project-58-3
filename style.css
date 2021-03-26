@@ -1,0 +1,55 @@
+body {
+    text-align: center;
+    background: linear-gradient(#D50000, #FF1744, #FF5252, #FF8A80);
+    background-repeat: no-repeat;
+}
+
+img {
+    border-radius: 50%;
+    width: 100px;
+}
+
+h1 {
+    text-shadow: 2px 2px;
+    font-size: 50px;
+}
+
+p {
+    font-size: 20px;
+    color:white;
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+.menu{
+    color: blue;
+    font-size: 22px;
+    list-style: none;
+    z-index: 10;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+
+.links{
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.links:hover{
+    font-size: 28px;
+    background-color: blueviolet;
+}
+.bio{
+ background: linear-gradient (purple,blue,skyblue,white);
+}
